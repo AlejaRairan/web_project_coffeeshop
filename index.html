@@ -116,7 +116,7 @@
               <input
                 class="form__input"
                 type="text"
-                id="input-name"
+                id="name"
                 name="name"
                 placeholder="Nombre"
                 required
@@ -135,15 +135,24 @@
               />
               <label for="date" class="form__label">Fecha y hora *</label>
               <input type="date" class="form__input" id="date" name="date" />
-              <label for="email" class="form__label">Tu correo electrónico *</label>
-              <input type="email" class="form__input" id="email" name="email" placeholder="email@email.com"></label>
-              <fieldset form__fieldset >
-              <button type="submit" class="form__button">
-                Reservar una mesa
-              </button>
+              <label for="email" class="form__label">
+                Tu correo electrónico *
+              </label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+              <fieldset form__fieldset>
+                <button type="submit" class="form__button">
+                  Reservar una mesa
+                </button>
               </fieldset>
-              </fieldset>
-                <fieldset class="form__fieldset form__fieldset_el_center">
+            </fieldset>
+            <fieldset class="form__fieldset form__fieldset_el_center">
               <input
                 class="form__checkbox"
                 type="checkbox"
@@ -156,7 +165,6 @@
                 for="checkbox"
                 >Acepto los términos de uso
               </label>
-
             </fieldset>
           </form>
         </section>

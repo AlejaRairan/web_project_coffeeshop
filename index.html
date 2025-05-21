@@ -121,13 +121,13 @@
                 placeholder="Nombre"
                 required
               />
-              <label for="number" class="form__label"
-                >Número de comensales *</label
-              >
+              <label for="number" class="form__label">
+                Número de comensales *
+              </label>
               <input
                 class="form__input"
                 type="number"
-                id="input-number"
+                id="number"
                 name="number"
                 min="1"
                 max="8"
@@ -146,25 +146,24 @@
                 placeholder="email@email.com"
                 required
               />
-              <fieldset form__fieldset>
-                <button type="submit" class="form__button">
-                  Reservar una mesa
-                </button>
+              <button type="submit" class="form__button">
+                Reservar una mesa
+              </button>
+
+              <fieldset class="form__fieldset form__fieldset_el_center">
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="checkbox"
+                  name="checkbox"
+                  required
+                />
+                <label
+                  class="form__label form__label_direction_right"
+                  for="checkbox"
+                  >Acepto los términos de uso
+                </label>
               </fieldset>
-            </fieldset>
-            <fieldset class="form__fieldset form__fieldset_el_center">
-              <input
-                class="form__checkbox"
-                type="checkbox"
-                id="checkbox"
-                name="checkbox"
-                required
-              />
-              <label
-                class="form__label form__label_direction_right"
-                for="checkbox"
-                >Acepto los términos de uso
-              </label>
             </fieldset>
           </form>
         </section>

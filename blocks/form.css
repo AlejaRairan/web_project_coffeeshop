@@ -1,10 +1,6 @@
 .form__fieldset {
   border: none;
 }
-.reservation__form {
-  max-width: 385px;
-}
-
 .form__label {
   font-family: Inter;
   font-style: normal;
